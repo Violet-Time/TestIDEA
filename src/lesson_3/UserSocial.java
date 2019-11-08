@@ -27,6 +27,10 @@ public class UserSocial extends User{
         System.out.println(user_name);
     }
 
+    public static void test(){
+        int a = 6;
+    }
+
 }
 class WebMaster extends User {
     private String user_url;

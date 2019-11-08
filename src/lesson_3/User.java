@@ -1,6 +1,6 @@
 package lesson_3;
 
-public class User implements PrintData {
+public abstract class User implements PrintData {
     private int id;
     private String login;
     private String password;
@@ -27,6 +27,10 @@ public class User implements PrintData {
     @Override
     public void printUser() {
 
+    }
+
+    public static void test(){
+        int a = 5;
     }
 
 }

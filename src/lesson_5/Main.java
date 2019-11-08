@@ -54,12 +54,8 @@ public class Main {
 
 //        int a = 5, b = 8;
 //        System.out.println(a);
-        Test t = new Test(){
-            public double der(double a){
-                return Math.pow(a,3);
-            }
-        };
-        System.out.println(t.r(1.4));
+//        Test t;
+//        System.out.println(t.r(1.4));
     }
 
 

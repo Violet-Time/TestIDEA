@@ -1,4 +1,4 @@
-public class LoginExt extends Exception {
+public class LoginExt extends RuntimeException {
     final static public int SHORT_LOGIN = 1;
     final static public int LONG_LOGIN = 2;
     private int code;
